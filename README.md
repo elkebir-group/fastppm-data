@@ -32,4 +32,10 @@ nextflow main.nf
 This will create a directory `simulations` containing the simulated datasets. Each
 simulated dataset is stored in a directory `simulations/n[MUTATIONS]_s[SAMPLES]_c[COVERAGE]_r[SEED]` 
 and contains six files `sim_clonal_matrix.txt`, `sim_total_matrix.txt`, `sim_usage_matrix.txt`,
-`sim_frequency_matrix.txt`, `sim_tree.txt`, and `sim_variant_matrix.txt`.
+`sim_frequency_matrix.txt`, `sim_tree.txt`, and `sim_variant_matrix.txt`. 
+
+`sim_clonal_matrix.txt` is the
+clonal matrix associated with the ground truth clonal tree $\mathcal{T}$. `sim_tree.txt` is the adjacency
+list of the ground truth clonal tree $\mathcal{T}$. `sim_usage.txt` is the ground truth usage matrix.
+`sim_variant_matrix.txt`, `sim_total_matrix.txt`, and `sim_frequency_matrix.txt` are the *observed* variant read
+counts, total read counts, and variant allele frequencies.
