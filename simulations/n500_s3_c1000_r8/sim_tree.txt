@@ -1,5 +1,5 @@
-#/Users/schmidt73/Desktop/fastppm-data/bin/simulate.py --mutations 500 --samples 3 --coverage 1000 --seed 8 --output sim
-# GMT Fri Sep 13 14:25:06 2024
+#/n/fs/ragr-research/projects/fastppm-data/bin/simulate.py --mutations 500 --samples 3 --coverage 1000 --seed 8 --output sim
+# GMT Sun Oct 13 15:00:26 2024
 # 
 0 152
 1

@@ -17,7 +17,7 @@ process create_sim {
     output:
         tuple file("sim_clonal_matrix.txt"), file("sim_frequency_matrix.txt"), 
               file("sim_total_matrix.txt"), file("sim_tree.txt"), file("sim_usage_matrix.txt"), 
-              file("sim_variant_matrix.txt"),
+              file("sim_variant_matrix.txt"), file("sim_weight_matrix.txt"),
               val("n${mutations}_s${samples}_c${coverage}_r${seed}")
 
     """
